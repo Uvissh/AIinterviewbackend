@@ -7,7 +7,7 @@ const cors = require('cors');
 
 
 app.use(cors({
-    origin:"https://aiinterviewfrontend-9onz.onrender.com/"
+    origin:"https://aiinterviewfrontend-9onz.onrender.com"
 }))
 app.use(express.json());
 app.use(interviewRouter);
