@@ -1,0 +1,16 @@
+node_modules/
+jspm_packages/
+web_modules/
+.pnp
+.pnp.js
+
+# -----------------------------------------------------------------------------
+# Environment Secrets (Contains sensitive API keys and passwords)
+# -----------------------------------------------------------------------------
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.pem
+*.key
